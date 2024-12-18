@@ -4,8 +4,8 @@ import Avatar from "../profile/userAvatar";
 
 export default function Sidebar() {
 	return (
-		<div className="w-[30%] h-full gap-4">
-			<Tabs className=" w-full  bg-white gap-1" aria-label="Tabs variants" variant="underlined" color="success">
+		<div className="w-[30%] h-full gap-4 bg-white">
+			<Tabs className=" w-full bg-white gap-1" aria-label="Tabs variants" variant="underlined" color="success">
 				<Tab
 					key="all_chats"
 					title={
@@ -15,6 +15,7 @@ export default function Sidebar() {
 						</div>
 					}>
 					<Avatar />
+					<div className="h-[0.1px] w-full bg-neutral-100"></div>
 				</Tab>
 				<Tab key="my_chats" title="My Chats"></Tab>
 			</Tabs>

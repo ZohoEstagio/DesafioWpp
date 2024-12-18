@@ -1,4 +1,4 @@
-export const IconlyFilter = ({ size = 24, color = "#000000" }) => {
+export const IconlyFilter = ({ size = 24, color = "#00000" }) => {
 	return (
 		<svg width={size} height={size} viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M13.4951 7.85754H19.1371" stroke={color} strokeWidth="1.5" strokeLinecap="square"></path>
