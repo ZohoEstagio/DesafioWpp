@@ -4,7 +4,7 @@ import { IconlyCloseSquare } from "../buttons/closeIcon";
 
 export default function InfoAvatar() {
 	return (
-		<div className="p-3 w-full h-14 flex justify-between bg-white">
+		<div className="p-2 w-full h-14 flex justify-between bg-white">
 			<User
 				avatarProps={{
 					src: "https://i.pravatar.cc/150?u=a04258114e29026702d",
@@ -21,7 +21,7 @@ export default function InfoAvatar() {
 					{" "}
 					Marcar como fechado
 				</Button>
-				<IconlyCloseSquare />
+				<button><IconlyCloseSquare /></button>
 			</div>
 		</div>
 	);
