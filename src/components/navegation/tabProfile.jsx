@@ -56,7 +56,7 @@ import AddTagButton from "../buttons/tagButton";
 
 export default function TabsProfile() {
 	return (
-		<div className=" w-[20%] flex flex-wrap gap-4">
+		<div className=" w-fit flex flex-wrap gap-4 bg-white">
 			<Tabs aria-label="Tabs variants" color="success" variant="underlined">
 				<Tab key="informacoes" title="Informações">
 					<div className="text-sm p-2">

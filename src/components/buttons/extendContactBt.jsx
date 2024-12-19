@@ -14,7 +14,7 @@ export function ExtendContact() {
 
 export default function ExtendCttBt() {
 	return (
-		<div className="flex gap-4 items-center">
+		<div className="flex gap-4 items-center bg-white">
 			<Button isIconOnly aria-label="Like" color="default" size="sm" className="rounded-large">
 				<ExtendContact />
 			</Button>
