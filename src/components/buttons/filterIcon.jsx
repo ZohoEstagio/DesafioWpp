@@ -1,4 +1,6 @@
-export const IconlyFilter = ({ size = 24, color = "#00000" }) => {
+import { Button, Link } from "@nextui-org/react";
+
+export const IconlyFilter = ({ size = 24, color = "black" }) => {
 	return (
 		<svg width={size} height={size} viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M13.4951 7.85754H19.1371" stroke={color} strokeWidth="1.5" strokeLinecap="square"></path>
@@ -20,3 +22,7 @@ export const IconlyFilter = ({ size = 24, color = "#00000" }) => {
 		</svg>
 	);
 };
+
+export default function FilterButton() {
+	return <Button as={Link} startContent={<IconlyFilter />} color="default" variant="light" size="sm" className="rounded-2xl"></Button>;
+}

@@ -3,7 +3,7 @@ import NotificationIcon from "../icons/notificationIcon";
 
 export default function Avatar() {
 	return (
-		<div className="p-2 w-full h-14 flex justify-between bg-white">
+		<div className=" w-full h-14 flex justify-between bg-white">
 			<User
 				avatarProps={{
 					src: "https://i.pravatar.cc/150?u=a04258114e29026702d",

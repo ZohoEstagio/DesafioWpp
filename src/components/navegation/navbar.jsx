@@ -1,11 +1,11 @@
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
-import { IconlyFilter } from "../buttons/filterIcon";
+import FilterButton from "../buttons/filterIcon";
 
 export default function Header({ item }) {
 	return (
 		<Navbar position="static" maxWidth="full">
 			<NavbarItem>
-				<IconlyFilter></IconlyFilter>
+				<FilterButton></FilterButton>
 			</NavbarItem>
 			<NavbarBrand>
 				<p className="font-medium text-inherit">Mensagens</p>
